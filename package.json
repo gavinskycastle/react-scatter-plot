@@ -1,0 +1,31 @@
+{
+  "name": "react-scatter-plot",
+  "version": "1.0.0",
+  "description": "Simple, colorful scatterplot component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"WIP\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinskycastle/react-scatter-plot.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Gavin P",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/gavinskycastle/react-scatter-plot/issues"
+  },
+  "homepage": "https://github.com/gavinskycastle/react-scatter-plot#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.60",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "d3": "^7.8.5",
+    "react": "^18.2.0"
+  }
+}
