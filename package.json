@@ -1,6 +1,6 @@
 {
   "name": "react-scatter-plot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple, colorful scatterplot component",
   "scripts": {
     "rollup": "rollup -c"

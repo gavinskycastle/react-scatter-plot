@@ -1,1 +1,1 @@
-export * from './ScatterPlot';
+export { default } from './ScatterPlot';
