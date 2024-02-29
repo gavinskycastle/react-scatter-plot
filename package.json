@@ -1,10 +1,9 @@
 {
   "name": "react-scatter-plot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple, colorful scatterplot component",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"WIP\""
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -20,12 +19,22 @@
   },
   "homepage": "https://github.com/gavinskycastle/react-scatter-plot#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.2.60",
-    "tsc": "^2.0.4",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.3.3"
   },
-  "dependencies": {
-    "d3": "^7.8.5",
-    "react": "^18.2.0"
-  }
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
